@@ -2,10 +2,9 @@
   "name": "site-toys",
   "version": "1.0.0",
   "description": "\"# Project-Site-Toys\"",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstall": "npm install express"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
