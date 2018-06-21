@@ -37,7 +37,7 @@ app.use(function(err, req, res, next){
     res.render('500');
 });
 
-app.listen(port , function(){
+app.listen( "port" , function(){
     console.log('Site запущен на http://localhost:' + 
 app.get('port') + 'нажмите Ctrl + C для завершения');
 });
