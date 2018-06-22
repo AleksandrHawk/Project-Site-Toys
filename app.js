@@ -12,15 +12,15 @@ app.set('port', process.env.PORT || 3000);
 
 app.use(express.static(__dirname + '/public'));
 
-app.get('/', function(req, res){
+app.get('port/', function(req, res){
     res.render('home');
 });
 
-app.get('/images', function(req, res){
+app.get('port/images', function(req, res){
     res.render('images');
 });
 
-app.get('/contacts', function(req, res){
+app.get('port/contacts', function(req, res){
     res.render('contacts');
 });
 
