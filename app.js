@@ -10,17 +10,21 @@ app.set('view engine', 'handlebars');
 
 app.set('port', process.env.PORT || 3000);
 
+//static files
 app.use(express.static(__dirname + '/public'));
+app.use("/css", express.static(__dirname + '/css'));
+app.use("/images", express.static(__dirname + '/images'));
 
-app.get('port/', function(req, res){
+
+app.get('/', function(req, res){
     res.render('home');
 });
 
-app.get('port/images', function(req, res){
+app.get('/images', function(req, res){
     res.render('images');
 });
 
-app.get('port/contacts', function(req, res){
+app.get('/contacts', function(req, res){
     res.render('contacts');
 });
 
