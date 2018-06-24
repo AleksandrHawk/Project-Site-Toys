@@ -6,14 +6,18 @@
 }
 
 .main-menu{
-  display: inline-block;
+  margin: 10px;
   float: left;
-  width: 10%;
+  width: 20%;
 }
 
-.content{
-  display: inline-block;
-  width: 80%;
+.content-center{
+  float: left;
+  width: 65%;
+}
+.content-right{
+  float: left;
+  width: 15%;
 }
 
 .firstDiv {
@@ -25,16 +29,16 @@
 
 .box-for-images {
   display: inline-block;
-  width: 300px;
-  height: 400px;
+  width: 230px;
+  height: 300px;
   border: 1px solid black;
   text-align: center;
   margin: 5px;
 }
 
 img{
-  width: 300px;
-  height: 400px;
+  width: 230px;
+  height: 300px;
 }
 
 a{
@@ -49,13 +53,13 @@ body {
   text-decoration: none;
   outline: none;
   display: inline-block;
-  width: 140px;
-  height: 45px;
-  line-height: 45px;
-  border-radius: 45px;
+  width: 180px;
+  height: 65px;
+  line-height: 65px;
+  border-radius: 65px;
   margin: 10px 20px;
   font-family: 'Montserrat', sans-serif;
-  font-size: 11px;
+  font-size: 20px;
   text-transform: uppercase;
   text-align: center;
   letter-spacing: 3px;
