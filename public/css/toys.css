@@ -1,6 +1,19 @@
 
+#main-header{
+}
+
+#main-footer{ 
+}
+
+.main-menu{
+  display: inline-block;
+  float: left;
+  width: 10%;
+}
+
 .content{
- 
+  display: inline-block;
+  width: 80%;
 }
 
 .firstDiv {
@@ -9,12 +22,30 @@
     color:rgb(85, 70, 90);
     background: rgb(199, 224, 220);
 }
+
+.box-for-images {
+  display: inline-block;
+  width: 300px;
+  height: 400px;
+  border: 1px solid black;
+  text-align: center;
+  margin: 5px;
+}
+
+img{
+  width: 300px;
+  height: 400px;
+}
+
 a{
     text-decoration: none;
 }
 
-body {background: url(https://html5book.ru/wp-content/uploads/2015/07/background39.png);}
-a {
+body {
+  background: url(/images/main_background.png);
+  
+}
+ .main-menu a {
   text-decoration: none;
   outline: none;
   display: inline-block;
@@ -34,7 +65,7 @@ a {
   box-shadow: 0 8px 15px rgba(0,0,0,.1);
   transition: .3s;
 }
-a:hover {
+.main-menu a:hover {
   background: #2EE59D;
   box-shadow: 0 15px 20px rgba(46,229,157,.4);
   color: white;
