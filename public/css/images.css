@@ -1,0 +1,41 @@
+.firstDiv {
+    text-align: center;
+    opacity: 0.8;
+    color:rgb(85, 70, 90);
+    background: rgb(199, 224, 220);
+}
+
+.box-for-images {
+  display: inline-block;
+  width: 245px;
+  height: 315px;
+  text-align: center;
+  margin: 6px;
+  overflow:hidden;
+}
+
+.box-for-images a{
+  width: 235px;
+  height: 303px;
+  border: solid 2px #ccc;
+  float: left;
+}
+
+.box-for-images a:hover {
+  border-color: #FF9900;
+}
+
+img{
+  width: 230px;
+  height: 300px;
+  -moz-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  -webkit-transition: all 1s ease-out;
+}
+
+.box-for-images img:hover{
+-webkit-transform: scale(1.1);
+ -moz-transform: scale(1.1);
+ -o-transform: scale(1.1);
+}
+

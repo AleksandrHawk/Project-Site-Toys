@@ -1,0 +1,66 @@
+#main-header{
+}
+
+#main-footer{ 
+}
+
+.content-left{
+  background : url("/images/left_fon.jpg") repeat-y;
+  float: left;
+  width: 5%;
+}
+
+.main-menu{
+  margin: 10px;
+  float: left;
+  width: 25%;
+}
+
+.content-center{
+  float: left;
+  width: 65%;
+}
+.content-right{
+  background : url("/images/right_fon.jpg");
+  float: left;
+  width: 5%;
+}
+
+.firstDiv {
+    text-align: center;
+    opacity: 0.8;
+    color:rgb(85, 70, 90);
+    background: rgb(199, 224, 220);
+}
+
+
+body {
+  background: url(/images/main_background.png);
+  
+}
+ .main-menu a {
+  text-decoration: none;
+  outline: none;
+  display: inline-block;
+  width: 180px;
+  height: 65px;
+  line-height: 65px;
+  border-radius: 65px;
+  margin: 10px 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 3px;
+  font-weight: 600;
+  color: #524f4e;
+  background: white;
+  box-shadow: 0 8px 15px rgba(0,0,0,.1);
+  transition: .3s;
+}
+.main-menu a:hover {
+  background: #2EE59D;
+  box-shadow: 0 15px 20px rgba(46,229,157,.4);
+  color: white;
+  transform: translateY(-7px);
+}
