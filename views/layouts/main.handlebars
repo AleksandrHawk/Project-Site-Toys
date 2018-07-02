@@ -1,29 +1,43 @@
 <!DOCTYPE html>
 <head>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon"> 
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
+    <!--Add google Fonts Style - Shrikhand -->
+    <link href="https://fonts.googleapis.com/css?family=Shrikhand" rel="stylesheet">
+
+    <!-- My classes  -->
     <link rel="stylesheet" href="/css/main.css"> 
-    <title>Toys</title>
+    <link rel="stylesheet" href="/css/style.css"> 
+    <title>MyAmigurumi</title>
 </head>
 <body background ="/images/028.jpg">
-<div class = "content-left"></div>
-<div class = "main-menu">
-        <div>
-            <a href="/">Главная</a>
-        </div>
-        <div>
-            <a href="/images">Фото</a>
-        </div>
-        <div>
-            <a href="/contacts">Контакты</a>
-        </div>
+
+<nav class="navbar navbar-light navbar-expand" style="background-color:#C9F76F;">
+    <div class="container">
+
+        <a class="navbar-brand shrikhand" href="/">MyAmigurumi</a>
+
+        <nav class="nav nav-pills nav-fill">
+            <a class="nav-item" href="/">Главная</a>
+            <a class="nav-item" href="/images">Фотогаллерея</a>
+            <a class="nav-item" href="/contacts">Контакты</a>
+        </nav>
+
     </div>
-     <div class = "content-center">
+</nav>        
+<div class = "row">
+    <div class="col-4-md"></div>
+    <div class="col-8-md container">
         {{{body}}}
     </div>
-    <div class = "content-right">
-        
-    </div>
-    
-  <footer id = "main-footer"></footer> 
-  
+    <div class="col-4-md"></div>
+</div>
+
 </body>
 </html>

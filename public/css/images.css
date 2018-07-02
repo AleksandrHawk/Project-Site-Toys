@@ -17,15 +17,15 @@
 .box-for-images a{
   width: 235px;
   height: 303px;
-  border: solid 2px #ccc;
+  border: solid 3px #ccc;
   float: left;
 }
 
 .box-for-images a:hover {
-  border-color: #FF9900;
+  border-color: rgb(115, 255, 0);
 }
 
-img{
+#images img{
   width: 230px;
   height: 300px;
   -moz-transition: all 1s ease-out;
