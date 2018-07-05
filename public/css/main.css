@@ -1,45 +1,10 @@
-#main-header{
-}
-
-#main-footer{ 
-}
-
-.content-left{
-  background : url("/images/left_fon.jpg") repeat-y;
-  float: left;
-  width: 5%;
-}
-
-.main-menu{
-  margin: 10px;
-  float: left;
-  width: 25%;
-}
-
-.content-center{
-  float: left;
-  width: 65%;
-}
-.content-right{
-  background : url("/images/right_fon.jpg");
-  float: left;
-  width: 5%;
-}
-
-.firstDiv {
-    text-align: center;
-    opacity: 0.8;
-    color:rgb(85, 70, 90);
-    background: rgb(199, 224, 220);
-}
-
 
 body {
   background: url(/images/main_background.png);
   
 }
 
-.nav a{
+.nav-pills a{
   text-decoration: none;
   outline: none;
   display: inline-block;
@@ -60,7 +25,7 @@ body {
   transition: .3s;
 }
 
-.nav a:hover{
+.nav-pills a:hover{
   background: rgb(131, 185, 3);
   color: #B9F73E;
   box-shadow: 0 8px 15px rgba(4, 59, 7, 0.1);

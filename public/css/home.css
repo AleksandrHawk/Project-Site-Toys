@@ -1,0 +1,9 @@
+#list-items a {
+    color: #B9F73E;
+    background: #679B00;
+}
+
+#list-items a:hover {
+    background: rgb(131, 185, 3);
+    color: #B9F73E;
+}
