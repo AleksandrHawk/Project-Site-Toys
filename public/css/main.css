@@ -31,3 +31,7 @@ body {
   box-shadow: 0 8px 15px rgba(4, 59, 7, 0.1);
   transform: translateY(-7px);
 }
+
+#bunny-1 h1{
+  text-align: center;
+}
