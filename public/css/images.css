@@ -32,3 +32,23 @@
  -o-transform: scale(1.1);
 }
 
+.images-overview  img{
+  width: 450px;
+  height: 600px;
+}
+
+.images-overview text {
+  font-size: 26px;
+  font-family: Arial;
+}
+
+.main-images img{
+  width: 364px;
+  height: 280px;
+}
+
+.main-text p{
+  font-size: 22px;
+  font-family: Arial;
+}
+

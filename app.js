@@ -23,8 +23,6 @@ toysRouter.route("/:toysName").get(function(req, res){
     res.render(tName);
 });
 
-
-
 app.use("/images", toysRouter);
 
 app.get('/', function(req, res){
