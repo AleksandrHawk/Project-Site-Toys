@@ -42,9 +42,20 @@
   font-family: Arial;
 }
 
-.main-images img{
+.main-images-1 img{
   width: 364px;
   height: 280px;
+}
+
+.main-images-2 img{
+  width: 364px;
+  height: 480px;
+}
+
+.main-images-3 img{
+  width: 1110px;
+  height: 480px;
+  opacity: .3;
 }
 
 .main-text p{
